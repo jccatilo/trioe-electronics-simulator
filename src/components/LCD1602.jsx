@@ -20,9 +20,10 @@ const Input = styled.input`
   margin: 5px;
   padding: 5px;
   font-size: 14px;
-  width: 50px;
+
   border: 1px solid #ccc;
   border-radius: 3px;
+  width: 80%;
 `;
 
 const Dropdown = styled.select`
@@ -133,7 +134,7 @@ const LCD1602 = ({ lcdText, setLcdText}) => {
         </label>
       </td>
       <td>
-         <pre><code>&lt;wokwi-lcd1602
+         &lt;wokwi-lcd1602
           pins="i2c"
           text="{lcdText}"
           background="{background}"
@@ -141,7 +142,7 @@ const LCD1602 = ({ lcdText, setLcdText}) => {
           blink="{blink}"
           cursorx="{cursorX - 1}"
           cursory="{cursorY - 1}"
-          &gt;&lt;/wokwi-lcd1602&gt;</code></pre>
+          &gt;&lt;/wokwi-lcd1602&gt;
       </td>
     </tr>
   );

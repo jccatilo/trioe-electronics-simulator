@@ -106,7 +106,7 @@ const LCD2004 = ({ lcd2004Text, setLcd2004Text }) => {
         />
       </td>
       <td>
-      <pre><code>&lt;wokwi-lcd2004
+      &lt;wokwi-lcd2004
           pins="i2c"
           background="{background}"
           color="{color}"
@@ -114,7 +114,7 @@ const LCD2004 = ({ lcd2004Text, setLcd2004Text }) => {
           blink="{blink}"
           cursorx="{cursorX - 1}"
           cursory="{cursorY - 1}"
-          &gt;&lt;/wokwi-lcd2004&gt;</code></pre>
+          &gt;&lt;/wokwi-lcd2004&gt;
       </td>
     </tr>
   );
