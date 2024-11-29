@@ -41,6 +41,7 @@ function App() {
   return (
     <AppContainer>
       <h1>Electronic Components Testing Table</h1>
+      <p><a href="https://github.com/jccatilo/trioe-electronics-simulator">click this link for my repo</a></p>
       <ResetButton resetAll={resetAll} />
       <Table
         angle={angle}
