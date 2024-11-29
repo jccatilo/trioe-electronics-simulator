@@ -1,10 +1,11 @@
 # Notes from the Author
+<div style="text-align: justify;">
+I created this repository to help web programmers create web-based eletronic simulators mostly from wokwi website to ease up searching and development time.<br>
+My end goal is to create a way to interface various electronics components (e.g. sensors, actuators, indicators, microcontrollers, and custom pcb boards) on a web browser.<br>
+This can help build stronger professionals through learning modules for the young and interested in electronics; which are our future employees/innovators.
 
-I created this repository to help web programmers create web-based eletronic simulators mostly from wokwi website to ease up searching and development time.
-My end goal is to create a way to interface various electronics components (e.g. sensors, actuators, indicators, microcontrollers, and custom pcb boards) on a web browser. This can help build stronger professionals through learning modules for the young and interested in electronics; which are our future employees/innovators.
-
-The latest version can be seen here: https://trioe-electronics-simulator.vercel.app/
-
+The latest implementation/demo can be seen here: https://trioe-electronics-simulator.vercel.app/
+</div>
 
 
 # Getting Started with Create React App
