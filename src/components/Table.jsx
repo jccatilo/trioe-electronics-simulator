@@ -33,7 +33,7 @@ const Table = (props) => {
         <tr>
           <th>Part Name</th>
           <th>Test Functions</th>
-          <th>Usage</th>
+          <th>Usage (make sure to npm i @wokwi/elements and import "@wokwi/elements";)</th>
         </tr>
       </thead>
       <tbody>

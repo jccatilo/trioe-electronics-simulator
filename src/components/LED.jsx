@@ -87,7 +87,13 @@ const LED = ({
         <br />
         <Button onClick={() => setFlip(!flip)}>{flip ? "Unflip" : "Flip"}</Button>
       </td>
-      <td>Simulates flipping of the LED visually.</td>
+      <td><pre><code class="language-javascript">&lt;wokwi-led
+            color="{ledColor}"&nbsp;value="{ledOn ? "on" : ""}"&nbsp;brightness="{brightness}"
+            &gt;&lt;/wokwi-led&gt;</code></pre>
+            
+            </td>
+
+            
     </tr>
   );
 };

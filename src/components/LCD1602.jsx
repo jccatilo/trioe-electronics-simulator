@@ -133,8 +133,15 @@ const LCD1602 = ({ lcdText, setLcdText}) => {
         </label>
       </td>
       <td>
-        16x2 LCD display with customizable text, background color, cursor position, and blink
-        functionality.
+         <pre><code>&lt;wokwi-lcd1602
+          pins="i2c"
+          text="{lcdText}"
+          background="{background}"
+          color="{color}"
+          blink="{blink}"
+          cursorx="{cursorX - 1}"
+          cursory="{cursorY - 1}"
+          &gt;&lt;/wokwi-lcd1602&gt;</code></pre>
       </td>
     </tr>
   );

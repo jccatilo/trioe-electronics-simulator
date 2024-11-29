@@ -41,7 +41,7 @@ function App() {
   return (
     <AppContainer>
       <h1>Electronic Components Testing Table</h1>
-      <p><a href="https://github.com/jccatilo/trioe-electronics-simulator">click this link for my repo</a></p>
+      <p><a href="https://github.com/jccatilo/trioe-electronics-simulator">click this link to learn more about this project on github</a></p>
       <p>credits to <a href="https://github.com/wokwi/">wokwi team</a> for the wokwi elements</p>
       <ResetButton resetAll={resetAll} />
       <Table

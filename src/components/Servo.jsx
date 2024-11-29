@@ -41,7 +41,7 @@ const Servo = ({ angle, setAngle }) => {
           <option value="cross">Cross</option>
         </Select>
       </td>
-      <td>Controls angular movement with selectable horn configurations.</td>
+      <td>&lt;wokwi-servo angle="{angle}" horn="{hornType}"&gt;&lt;/wokwi-servo&gt;</td>
     </tr>
   );
 };

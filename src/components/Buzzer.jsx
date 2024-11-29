@@ -93,7 +93,7 @@ const Buzzer = () => {
         <Button onClick={handleToggle}>{buzzerOn ? "Turn Off" : "Turn On"}</Button>
       </td>
       <td>
-        Produces audible tones at specific frequencies. Visual buzzer included for simulation.
+      &lt;wokwi-buzzer hasSignal="{buzzerOn ? "on" : ""}"&gt;&lt;/wokwi-buzzer&gt; <br></br><br></br> <i>use tone.js for the sound. wokwi has no sound library yet.</i>
       </td>
     </tr>
   );

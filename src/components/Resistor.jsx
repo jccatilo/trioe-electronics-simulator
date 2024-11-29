@@ -32,7 +32,7 @@ const Resistor = ({ resistorValue, setResistorValue }) => {
           />
         </ResistorContainer>
       </td>
-      <td>Limits electrical current in circuits; adjustable for testing purposes.</td>
+      <td>&lt;wokwi-resistor value="{resistorValue}"&gt;&lt;/wokwi-resistor&gt;</td>
     </tr>
   );
 };

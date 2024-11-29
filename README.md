@@ -2,9 +2,11 @@
 <div style="text-align: justify;">
 I created this repository to help web programmers create web-based eletronic simulators mostly from wokwi website to ease up searching and development time.<br>
 My end goal is to create a way to interface various electronics components (e.g. sensors, actuators, indicators, microcontrollers, and custom pcb boards) on a web browser.<br>
-This can help build stronger professionals through learning modules for the young and interested in electronics; which are our future employees/innovators.
+This can help build stronger professionals through learning modules for the young and interested in electronics; which are our future employees/innovators.<br>
 
-The latest implementation/demo can be seen here: https://trioe-electronics-simulator.vercel.app/
+The latest implementation/demo can be seen here: https://trioe-electronics-simulator.vercel.app/ <br>
+<br>
+Big credits to [wokwi](https://github.com/wokwi/) for enabling me to start this repo.
 </div>
 
 
