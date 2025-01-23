@@ -3,28 +3,31 @@ import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
 const PageContainer = styled.div`
-  background-color: #f9f9f9;
+  background-color: #1a1b26;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 20px;
-  font-family: 'Arial', sans-serif;
+  font-family: system-ui, -apple-system, sans-serif;
 `;
 
 const Header = styled.header`
   margin-bottom: 40px;
   text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
 `;
 
 const Title = styled.h1`
   font-size: 2.5rem;
-  color: #333;
+  color: #00ffd0;
+  margin-bottom: 10px;
 `;
 
 const Subtitle = styled.p`
   font-size: 1.2rem;
-  color: #666;
+  color: #ffffff;
 `;
 
 const CardContainer = styled.div`
@@ -32,13 +35,13 @@ const CardContainer = styled.div`
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  padding: 0 20px;
 `;
 
 const Card = styled.div`
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 280px;
   padding: 20px;
   text-align: center;
@@ -47,19 +50,20 @@ const Card = styled.div`
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 8px rgba(0, 255, 208, 0.15);
+    border-color: #00ffd0;
   }
 `;
 
 const CardTitle = styled.h3`
   font-size: 1.5rem;
-  color: #333;
+  color: #00ffd0;
   margin-bottom: 10px;
 `;
 
 const CardDescription = styled.p`
   font-size: 1rem;
-  color: #777;
+  color: #ffffff;
   margin-bottom: 15px;
 `;
 
@@ -73,11 +77,11 @@ const HomePage = () => {
         <Subtitle>Explore our tools and resources for electronics enthusiasts</Subtitle>
       </Header>
       <CardContainer>
-      <Card onClick={() => navigate('/serial-monitor')}>
+        <Card onClick={() => navigate('/serial-monitor')}>
           <CardTitle>TRIOE and the Arduino IDE Serial Monitor</CardTitle>
           <CardDescription>Make the TRIOE board communicate with you via the Serial Monitor.</CardDescription>
         </Card>
-        <Card>
+        <Card onClick={() => navigate('/built-in-LED')}>
           <CardTitle>TRIOE and its Built-in LED</CardTitle>
           <CardDescription>Learn about using the built-in LED on the TRIOE board with arduino IDEs loop function</CardDescription>
         </Card>
